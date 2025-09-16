@@ -1,0 +1,26 @@
+.betslip-draft-container {
+  position: fixed;
+  top: 8rem;         /* Adjust based on header height */
+  right: 1rem;       /* Adjust based on page padding */
+  width: 28vw;       /* Match your right column width */
+  height: 65vh;
+  z-index: 1000;
+}
+
+.betslip-draft {
+  border: 2px solid;
+  background-color: #fff;
+  height: 65vh;
+  padding: 1rem;
+  border-radius: 5px;
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.betslip-draft-match-container {
+  overflow-y: auto;
+  max-height: 30vh; /* or whatever fits */
+}

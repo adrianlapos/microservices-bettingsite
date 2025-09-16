@@ -1,0 +1,36 @@
+.main-page-container{
+    width:100%;
+    height: 95vh;
+    background-color: white;
+    border: black solid;
+    border-radius: 3px;
+}
+.main-page-main {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  height: 96%;
+  background-color: rgb(11, 163, 54);
+  overflow: hidden;
+}
+
+.main-page-left-part {
+  width: 20vw;
+  position: relative;
+}
+
+.main-page-main-part {
+  background-color: white;
+  flex-grow: 1;
+  position: relative;
+  border: 2px black solid;
+  border-radius: 4px;
+  overflow-y: auto;
+  padding: 1rem;
+  height: 95%;
+}
+
+.main-page-right-part {
+  width: 30vw;
+  position: relative; /* Just to exist — content inside is fixed */
+}

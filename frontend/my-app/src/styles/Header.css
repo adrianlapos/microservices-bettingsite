@@ -1,0 +1,18 @@
+.header-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+    color:rgb(229, 237, 231);
+    border-color:black;
+    border-radius: 10px;    
+    border-style: solid;    
+    border-width: 5px;   
+    gap:2rem;
+}
+.header-button{
+     color:rgb(11, 163, 54);
+     font-size:2rem;
+     background-color: transparent;
+     height: 85%;
+     border: transparent;
+}
